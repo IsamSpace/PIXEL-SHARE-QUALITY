@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(0, 0, 0) ;
+}
+form {
+    position: absolute; /* Posicionamento absoluto */
+    top: 55%; /* Distância do topo */
+    left: 52%; /* Distância da esquerda */
+    transform: translate(-50%, -50%); /* Centraliza horizontalmente e verticalmente */
+    padding: 35px; /* Espaçamento interno */
+    background-color: rgba(233, 227, 227, 0.185); /* Cor de fundo */
+    border-radius: 20px; /* Borda arredondada */
+    box-shadow:  10px 20px rgba(233, 231, 231, 0.137); /* Sombra */
+  }
+  
+  /* Estilizando os campos de entrada do formulário */
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="file"] {
+    width: calc(100% - 20px); /* Largura dos campos de entrada */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Margem inferior */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Borda arredondada */
+    background-color: rgba(255, 255, 255, 0.13); /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+  }
+  
+  /* Estilizando o botão de envio */
+  form input[type="submit"] {
+    width: 50%; /* Largura do botão */
+    padding: 10px; /* Espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Borda arredondada */
+    background-color: #0b0429; /* Cor de fundo */
+    color: #17fcf0; /* Cor do texto */
+    font-size: 19px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar por cima */
+    transition: background-color 1.3s; /* Transição suave */
+    display: block; /* Define como bloco para ocupar toda a largura disponível */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+  /* Estilizando o botão de envio no hover */
+  h1 {
+    font-size: 150%; /* Ajuste o valor conforme necessário */
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #51179c; /* Cor de fundo ao passar o mouse */
+  }
+  
+#img1 {
+    width: 170px; /* Tamanho desejado para a imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    position: absolute; /* Posicionamento absoluto */
+    top: -47px; /* Distância do topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+  }
+  
+  

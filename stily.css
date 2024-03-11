@@ -1,0 +1,1041 @@
+/* Estilo para o corpo da página */
+body {
+
+
+  background-color: rgb(0, 0, 0); /* Cor de fundo preta */
+  color: white; /* Cor do texto branco para melhor legibilidade */
+  margin: 0; /* Remove as margens */
+  height: 100vh; /* Altura total da janela do navegador */
+  display: flex; /* Ativa o modelo de layout flexível */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  align-items: flex-start; /* Alinha verticalmente o conteúdo ao topo */
+  flex-direction: column; /* Organiza os itens na vertical */
+}
+
+
+body{
+  background-color: #000000;
+}
+footer{
+  position: absolute;
+  margin-top: 300px;
+}
+footer a{
+  color: #F5E53A;
+}
+footer img{
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+.wrapper{
+  position: absolute;
+  float: left;
+  margin: 200px 500px;
+}
+
+.line{
+  position: absolute;
+  top: 0px;
+  width: 2px;
+  height: 8px;
+  background-color: red;
+}
+
+.circle{
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.circle-top{
+  top: 0px;
+  left: -3.5px;
+}
+.circle-bottom{
+  bottom: 0px;
+  left: -3.5px;
+}
+
+.dot{
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  left: -1.5px;
+}
+
+.line1{
+  margin-left: 10px;
+  background-color: #2410CB;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.line1 > span{
+  background-color: #D4141E;
+}
+.line1 > .dotted > .dot{
+  background-color: #D4141E;
+}
+.line1 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.line1 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.line1 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+.line1 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) infinite;
+}
+
+.line2{
+  margin-left: 35px;
+  background-color: #020202;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.line2 > span{
+  background-color: #FC7E48;
+}
+.line2 > .dotted > .dot{
+  background-color: #FC7E48;
+}
+.line2 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.line2 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.line2 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+.line2 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .05s infinite;
+}
+
+.line3{
+  margin-left: 70px;
+  background-color: #F42DF1;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.line3 > span{
+  background-color: #EDEB29;
+}
+.line3 > .dotted > .dot{
+  background-color: #EDEB29;
+}
+.line3 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.line3 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.line3 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+.line3 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .1s infinite;
+}
+
+.line4{
+  margin-left: 105px;
+  background-color: #F91396;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.line4 > span{
+  background-color: #ACED29;
+}
+.line4 > .dotted > .dot{
+  background-color: #ACED29;
+}
+.line4 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.line4 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.line4 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+.line4 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .15s infinite;
+}
+
+.line5{
+  margin-left: 140px;
+  background-color: #D4141E;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.line5 > span{
+  background-color: #4EF02B;
+}
+.line5 > .dotted > .dot{
+  background-color: #4EF02B;
+}
+.line5 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.line5 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.line5 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+.line5 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .2s infinite;
+}
+
+.line6{
+  margin-left: 175px;
+  background-color: #FC7E48;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.line6 > span{
+  background-color: #38E790;
+}
+.line6 > .dotted > .dot{
+  background-color: #38E790;
+}
+.line6 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.line6 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.line6 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+.line6 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .25s infinite;
+}
+
+.line7{
+  margin-left: 210px;
+  background-color: #EDEB29;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.line7 > span{
+  background-color: #25EACC;
+}
+.line7 > .dotted > .dot{
+  background-color: #25EACC;
+}
+.line7 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.line7 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.line7 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+.line7 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .3s infinite;
+}
+
+.line8{
+  margin-left: 245px;
+  background-color: #ACED29;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.line8 > span{
+  background-color: #309CDF;
+}
+.line8 > .dotted > .dot{
+  background-color: #309CDF;
+}
+.line8 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.line8 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.line8 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+.line8 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .35s infinite;
+}
+
+.line9{
+  margin-left: 280px;
+  background-color: #4EF02B;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.line9 > span{
+  background-color: #2544E7;
+}
+.line9 > .dotted > .dot{
+  background-color: #2544E7;
+}
+.line9 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.line9 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.line9 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+.line9 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .4s infinite;
+}
+
+.line10{
+  margin-left: 315px;
+  background-color: #38E790;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.line10 > span{
+  background-color: #444444;
+}
+.line10 > .dotted > .dot{
+  background-color: #141414;
+}
+.line10 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.line10 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.line10 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+.line10 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .45s infinite;
+}
+
+.line11{
+  margin-left: 350px;
+  background-color: #656867;
+  -webkit-animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+  animation: line 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.line11 > span{
+  background-color: #050505;
+}
+.line11 > .dotted > .dot{
+  background-color: #4b484b;
+}
+.line11 > .dotted > .dot-top{
+  top: 0px;
+  -webkit-animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+  animation: dot-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+
+}
+.line11 > .dotted > .dot-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+  animation: dot-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.line11 > .dotted > .dot-middle-top{
+  top: 0px;
+  -webkit-animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+  animation: dot-middle-top 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+.line11 > .dotted > .dot-middle-bottom{
+  bottom: 0px;
+  -webkit-animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+  animation: dot-middle-bottom 2s cubic-bezier(0.250, 0, 0.705, 1) .5s infinite;
+}
+
+
+@-webkit-keyframes line{
+  0%{height: 4px; top: 0px; left: 0px; -webkit-transform: rotate(-65deg)}
+  10%{height: 220px; top: -110px; left: 15px;}
+  45%{height: 200px; top: -100px; left: 25px;}
+  70%{height: 8px; top: 0px; left: 25px; -webkit-transform: rotate(0deg);}
+  100%{height: 8px; top: 0px; left: 15px; -webkit-transform: rotate(0deg);}
+}
+@-webkit-keyframes dot-top{
+  0%{top: -30px}
+  10%{top: -30px;}
+  45%{top: -25px;}
+  60%{top: 0px;}
+  100%{top: 0px;}
+}
+@-webkit-keyframes dot-bottom{
+  0%{bottom: -30px}
+  10%{bottom: -30px;}
+  45%{bottom: -25px;}
+  60%{bottom: 0px;}
+  100%{bottom: 0px;}
+}
+@-webkit-keyframes dot-middle-top{
+  0%{}
+  10%{}
+  45%{top: 98px;}
+  70%{top: -50px;}
+  85%{top: 0px;}
+  100%{top: 0px;}
+}
+@-webkit-keyframes dot-middle-bottom{
+  0%{}
+  10%{}
+  45%{bottom: 98px;}
+  70%{bottom: -50px;}
+  85%{bottom: 0px;}
+  100%{bottom: 0px;}
+}
+
+@keyframes line{
+  0%{height: 4px; top: 0px; left: 0px; transform: rotate(-65deg)}
+  10%{height: 220px; top: -110px; left: 15px;}
+  45%{height: 200px; top: -100px; left: 25px;}
+  70%{height: 8px; top: 0px; left: 25px; transform: rotate(0deg);}
+  100%{height: 8px; top: 0px; left: 15px; transform: rotate(0deg);}
+}
+@keyframes dot-top{
+  0%{top: -30px}
+  10%{top: -30px;}
+  45%{top: -25px;}
+  60%{top: 0px;}
+  100%{top: 0px;}
+}
+@keyframes dot-bottom{
+  0%{bottom: -30px}
+  10%{bottom: -30px;}
+  45%{bottom: -25px;}
+  60%{bottom: 0px;}
+  100%{bottom: 0px;}
+}
+@keyframes dot-middle-top{
+  0%{}
+  10%{}
+  45%{top: 78px;}
+  70%{top: -50px;}
+  85%{top: 0px;}
+  100%{top: 0px;}
+}
+@keyframes dot-middle-bottom{
+  0%{}
+  10%{}
+  45%{bottom: 78px;}
+  70%{bottom: -50px;}
+  85%{bottom: 0px;}
+  100%{bottom: 0px;}
+}
+/* Estilo para o formulário */
+form {
+  position: absolute; /* Posicionamento absoluto */
+  top: 55%; /* Distância do topo */
+  left: 52%; /* Distância da esquerda */
+  transform: translate(-50%, -50%); /* Centraliza horizontalmente e verticalmente */
+  padding: 35px; /* Espaçamento interno */
+  background-color: rgba(56, 55, 55, 0.253); /* Cor de fundo */
+  border-radius: 20px; /* Borda arredondada */
+  box-shadow:  10px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilizando os campos de entrada do formulário */
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+  width: calc(100% - 20px); /* Largura dos campos de entrada */
+  padding: 10px; /* Espaçamento interno */
+  margin-bottom: 10px; /* Margem inferior */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Borda arredondada */
+  background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+}
+
+/* Estilizando o botão de envio */
+form input[type="submit"] {
+  width: 50%; /* Largura do botão */
+  padding: 10px; /* Espaçamento interno */
+  border: none; /* Remove a borda */
+  border-radius: 10px; /* Borda arredondada */
+  background-color: #0b0429; /* Cor de fundo */
+  color: #17fcf0; /* Cor do texto */
+  font-size: 19px; /* Tamanho da fonte */
+  cursor: pointer; /* Altera o cursor ao passar por cima */
+  transition: background-color 1.3s; /* Transição suave */
+  display: block; /* Define como bloco para ocupar toda a largura disponível */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilizando o botão de envio no hover */
+h1 {
+  font-size: 150%; /* Ajuste o valor conforme necessário */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+input[type="submit"]:hover {
+  background-color: #51179c; /* Cor de fundo ao passar o mouse */
+}
+
+
+
+.botoes button {
+  /* Outros estilos existentes */
+  left: 930px; /* Define a posição do botão em relação à borda esquerda da página */
+  bottom: 10px;
+  width:200px;
+  height:50px ;
+}
+
+.botoes button {
+  --border-color: linear-gradient(-45deg, #714d92, #7e03aa, #00fffb);
+  --border-width: .125em;
+  --curve-size: .3em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+  color: var(--color);
+  position: relative;
+  display: inline-grid;
+  place-content: center;
+  padding: .5em 1em;
+  font-size: 16px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+  clip-path: polygon(
+            0% var(--curve-size),
+            var(--curve-size) 0,
+            100% 0,
+            100% calc(100% - var(--curve-size)),
+            calc(100% - var(--curve-size)) 100%,
+            0 100%);
+  transition: color 250ms;
+  overflow: hidden;
+}
+
+.botoes button::after,
+.botoes button::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.botoes button::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
+}
+
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%
+  }
+
+  50% {
+    background-position: 70% 100%
+  }
+
+  100% {
+    background-position: 31% 0%
+  }
+}
+
+.botoes button::after {
+  background: var(--bg);
+  z-index: -1;
+  clip-path: polygon(
+            var(--border-width) 
+            calc(var(--curve-size) + var(--border-width) * .5),
+            calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+            calc(100% - var(--border-width)) 
+            var(--border-width),
+            calc(100% - var(--border-width)) 
+            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+            var(--border-width) calc(100% - var(--border-width)));
+  transition: clip-path 500ms;
+}
+
+.botoes button:where(:hover, :focus)::after {
+  clip-path: polygon(
+                calc(100% - var(--border-width)) 
+                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+                calc(100% - var(--border-width))
+                var(--border-width),
+                calc(100% - var(--border-width))
+                 var(--border-width),
+                calc(100% - var(--border-width)) 
+                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                calc(100% - var(--border-width)),
+                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                calc(100% - var(--border-width)));
+  transition: 200ms;
+}
+
+.custom-select {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.custom-select select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  appearance: none; /* Remove os estilos padrão do navegador */
+}
+
+.custom-select select:focus {
+  outline: none;
+}
+
+/* Estilo para a caixa de seleção personalizada */
+.custom-select {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+}
+
+.custom-select select {
+  display: none; /* Esconde a caixa de seleção padrão */
+}
+
+.custom-select::after {
+  content: '\2716'; /* Unicode para o símbolo "x" */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #333; /* Cor do ícone */
+  cursor: pointer;
+}
+
+/* Mudança de cor do ícone ao passar o mouse */
+.custom-select:hover::after {
+  color: #555;
+}
+
+/* Mudança de cor do ícone ao focar */
+.custom-select:focus::after {
+  color: #777;
+}
+
+/* Estilo para o botão de menu de hambúrguer */
+.burger {
+  display: block;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.burger span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+#img1 {
+  width: 170px; /* Tamanho desejado para a imagem */
+  height: auto; /* Altura automática para manter a proporção */
+  position: absolute; /* Posicionamento absoluto */
+  top: -47px; /* Distância do topo */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translateX(-50%); /* Centraliza horizontalmente */
+}
+/* Estilo para a seção */
+section {
+  padding: 50px 0px; /* Espaçamento interno superior e inferior */
+ left: 2%;
+  text-align: center; /* Alinhamento do conteúdo */
+  position: relative; /* Para posicionamento absoluto dos itens internos */
+  top: 600px;
+
+}
+
+/* Estilo para os itens da lista */
+h1{
+  font-size: 2.3em;
+  margin-bottom: 60px;
+}
+ul {
+  list-style-type: none; /* Remover os marcadores padrão */
+  padding: 0; /* Remover o preenchimento padrão */
+  margin: 0; /* Remover as margens padrão */
+}
+
+/* Estilo para os itens da lista */
+li {
+  font-size: 1.4em; /* Tamanho da fonte */
+  line-height: 2.0; /* Altura da linha */
+  color: #c9c9c9; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento entre os itens */
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores */
+  section {
+    padding: 30px 0; /* Espaçamento interno superior e inferior reduzido para telas menores */
+  }
+
+  li {
+    font-size: 1em; /* Redução do tamanho da fonte para telas menores */
+  }
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background-color: #f2f2f2;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .burger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu.show {
+    display: flex;
+  }
+}
+
+.botao2 button {
+  /* Outros estilos existentes */
+  left: 450px; /* Define a posição do botão em relação à borda esquerda da página */
+  bottom: -100px;
+}
+
+/* Estilo dos botões */
+.botao2 button {
+  --border-color: linear-gradient(-45deg, #5ec0d1, #7e03aa, #00fffb); /* Define uma borda com gradiente linear */
+  --border-width: .125em; /* Define a largura da borda */
+  --curve-size: .3em; /* Define o tamanho da curva */
+  --bg: #080312; /* Define a cor de fundo do botão */
+  --color: #afffff; /* Define a cor do texto do botão */
+  color: var(--color); /* Define a cor do texto do botão */
+  position: absolute; /* Define a posição do botão */
+  display: inline-grid; /* Define o modo de exibição como grid inline */
+  place-content: center; /* Centraliza o conteúdo dentro do botão */
+  padding: .5em 1em; /* Define o preenchimento do botão */
+  width: 500px; /* Define a largura do botão */
+  height: 90px; /* Define a altura do botão */
+  font-size: 23px; /* Define o tamanho da fonte do botão */
+  border: 0; /* Remove a borda do botão */
+  text-transform: uppercase; /* Transforma o texto do botão em maiúsculas */
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, .6); /* Adiciona uma sombra ao botão */
+  clip-path: polygon(
+            0% var(--curve-size),
+            var(--curve-size) 0,
+            100% 0,
+            100% calc(100% - var(--curve-size)),
+            calc(100% - var(--curve-size)) 100%,
+            0 100%); /* Define a forma do botão usando um polígono clip-path */
+  transition: color 250ms; /* Adiciona uma transição suave para a cor do texto */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do botão */
+}
+
+/* Define o estilo da borda antes e depois do botão */
+.botao2 button::after,
+.botao2 button::before {
+  content: ''; /* Adiciona conteúdo pseudo-elemento */
+  position: absolute; /* Define a posição como absoluta */
+  inset: 0; /* Define o posicionamento em relação ao elemento pai */
+}
+
+/* Estilo da borda antes do botão */
+.botao2 button::before {
+  background: var(--border-color); /* Define o fundo do elemento */
+  background-size: 300% 300%; /* Define o tamanho do fundo */
+  animation: move-bg7234 5s ease infinite; /* Adiciona uma animação ao fundo */
+  z-index: -2; /* Define a ordem de empilhamento */
+}
+
+/* Animação para mover o fundo */
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+  50% {
+    background-position: 70% 100%;
+  }
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+/* Estilo da borda após o botão */
+.botao2 button::after {
+  background: var(--bg); /* Define o fundo do elemento */
+  z-index: -1; /* Define a ordem de empilhamento */
+  clip-path: polygon(
+            var(--border-width) 
+            calc(var(--curve-size) + var(--border-width) * .5),
+            calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+            calc(100% - var(--border-width)) 
+            var(--border-width),
+            calc(100% - var(--border-width)) 
+            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+            calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+            var(--border-width) calc(100% - var(--border-width))); /* Define a forma do elemento usando um polígono clip-path */
+  transition: clip-path 500ms; /* Adiciona uma transição suave para a forma do elemento */
+}
+
+/* Efeito ao passar o mouse ou focar no botão */
+.botao2 button:where(:hover, :focus)::after {
+  clip-path: polygon(
+                calc(100% - var(--border-width)) 
+                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+                calc(100% - var(--border-width))
+                var(--border-width),
+                calc(100% - var(--border-width))
+                 var(--border-width),
+                calc(100% - var(--border-width)) 
+                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+                calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                calc(100% - var(--border-width)),
+                calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                calc(100% - var(--border-width))); /* Define a forma do elemento ao passar o mouse ou focar */
+  transition: 200ms; /* Adiciona uma transição suave */
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#menuToggle
+{
+display: block;
+position: relative;
+top: -80px;
+left: 20px;
+z-index: 1;
+-webkit-user-select: none;
+user-select: none;
+}
+
+#menuToggle a
+{
+text-decoration: none;
+color: #232323;
+transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+color: tomato;
+}
+
+
+#menuToggle input
+{
+display: block;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;
+cursor: pointer;
+opacity: 0; /* hide this */
+z-index: 2; /* and place it over the hamburger */
+-webkit-touch-callout: none;
+}
+#menuToggle span
+{
+display: block;
+width: 33px;
+height: 4px;
+margin-bottom: 5px;
+position: relative;
+background: #fffdfd;
+border-radius: 3px;
+z-index: 1;
+transform-origin: 4px 0px;
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+opacity: 1;
+transform: rotate(45deg) translate(-2px, -1px);
+background: #eceaea;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+opacity: 0;
+transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+position: absolute;
+width: 300px;
+margin: -100px 0 0 -50px;
+padding: 50px;
+padding-top: 125px;
+background: #ededed1e;
+list-style-type: none;
+-webkit-font-smoothing: antialiased;
+/* to stop flickering of text in safari */
+transform-origin: 0% 0%;
+transform: translate(-100%, 0);
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+padding: 10px 0;
+font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+transform: none;
+}
